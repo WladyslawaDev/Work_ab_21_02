@@ -26,7 +26,7 @@ const FeedbackVV = () => {
           {likes} Likes
           <EmojiButton emoji="👎" label="Dislike" onClick={addNotLike} />
           {notLikes} Dislikes
-          <EmojiButton emoji="🔄" label="Reset" onClick={setReset} />
+          <EmojiButton emoji="🔄" label="Reset All" onClick={setReset} />
         </div>
       </div>
       );
